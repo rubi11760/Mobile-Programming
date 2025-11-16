@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background: #ffe8f0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #ff5c8a;
+    color: white;
+    padding: 12px;
+}
+
+#hamburger {
+    font-size: 26px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.menu {
+    display: none;
+    background: #ff8fb3;
+    padding: 10px;
+}
+
+.menu.active {
+    display: block;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#serviceBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #ff5c8a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
